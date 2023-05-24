@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Navigation Bar | CodingNepal</title>
+  <link rel="stylesheet" href="navbar2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-content">
+      <div class="logo">
+        <a href="#" class="logo" style="color: rgb(218, 218, 218);
+      text-shadow: -0.3px 0.3px 0 #000, 0.3px 0.3px 0 #000,
+        0.3px -0.3px 0 #000, -0.3px -0.3px 0 #000;">Digital
+          <span style="color: rgb(106, 187, 214)">Touch</span>
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  <section class="vid-sec">
+    <video class="act-vid" src="img2/glow2.mp4" autoplay="" muted="" loop=""></video>
+  </section>
+  <section id="servi">
+    <div class="popup" id="popup-1">
+      <div class="overlay"></div>
+      <div class="popup-content">
+        <div class="close-btn" onclick="togglepopup1()">&times;</div>
+        <h1>title</h1>
+        <div class="para">
+          <p>
+            Lorem 1 ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            odio commodi nemo necessitatibus itaque, odit accusamus ullam
+            voluptates, officiis, cupiditate eius et architecto sit. Saepe eum
+            culpa dicta tenetur cum.
+          </p>
+          <img class="img-para" src="img2/adv.jpg" style="height: 200px; width: 400px" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popup-2">
+      <div class="overlay"></div>
+      <div class="popup-content">
+        <div class="close-btn" onclick="togglepopup2()">&times;</div>
+        <h1>title</h1>
+        <div class="para">
+          <p>
+            Lorem 2 ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            odio commodi nemo necessitatibus itaque, odit accusamus ullam
+            voluptates, officiis, cupiditate eius et architecto sit. Saepe eum
+            culpa dicta tenetur cum.
+          </p>
+          <img class="img-para" src="img2/adv.jpg" style="height: 200px; width: 400px" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popup-3">
+      <div class="overlay"></div>
+      <div class="popup-content">
+        <div class="close-btn" onclick="togglepopup3()">&times;</div>
+        <h1>title</h1>
+        <div class="para">
+          <p>
+            Lorem 3 ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            odio commodi nemo necessitatibus itaque, odit accusamus ullam
+            voluptates, officiis, cupiditate eius et architecto sit. Saepe eum
+            culpa dicta tenetur cum.
+          </p>
+          <img class="img-para" src="img2/adv.jpg" style="height: 200px; width: 400px" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popup-4">
+      <div class="overlay"></div>
+      <div class="popup-content">
+        <div class="close-btn" onclick="togglepopup4()">&times;</div>
+        <h1>title</h1>
+        <div class="para">
+          <p>
+            Lorem 4 ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            odio commodi nemo necessitatibus itaque, odit accusamus ullam
+            voluptates, officiis, cupiditate eius et architecto sit. Saepe eum
+            culpa dicta tenetur cum.
+          </p>
+          <img class="img-para" src="img2/adv.jpg" style="height: 200px; width: 400px" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popup-5">
+      <div class="overlay"></div>
+      <div class="popup-content">
+        <div class="close-btn" onclick="togglepopup5()">&times;</div>
+        <h1>title</h1>
+        <div class="para">
+          <p>
+            Lorem 5 ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            odio commodi nemo necessitatibus itaque, odit accusamus ullam
+            voluptates, officiis, cupiditate eius et architecto sit. Saepe eum
+            culpa dicta tenetur cum.
+          </p>
+          <img class="img-para" src="img2/adv.jpg" style="height: 200px; width: 400px" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popup-6">
+      <div class="overlay"></div>
+      <div class="popup-content">
+        <div class="close-btn" onclick="togglepopup6()">&times;</div>
+        <h1>title</h1>
+        <div class="para">
+          <p>
+            Lorem 6 ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            odio commodi nemo necessitatibus itaque, odit accusamus ullam
+            voluptates, officiis, cupiditate eius et architecto sit. Saepe eum
+            culpa dicta tenetur cum.
+          </p>
+          <img class="img-para" src="img2/adv.jpg" style="height: 200px; width: 400px" alt="" />
+        </div>
+      </div>
+    </div>
+    <h2 id="srv" style="color: black; margin-top: -140px; font-size: 40px">
+      Services
+    </h2>
+    <div class="container">
+      <div class="box">
+        <div class="vidbox">
+          <img src="img2/pic1.jpg" alt="" />
+        </div>
+        <div class="contentBx">
+          <div class="content">
+            <p class="cap">Caption One</p>
+            <a class="button" onclick="togglepopup1()">Dive In</a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="vidbox">
+          <img src="img2/pic2.jpg" alt="" />
+        </div>
+        <div class="contentBx">
+          <div class="content">
+            <p class="cap">Caption Two</p>
+            <a class="button" onclick="togglepopup2()">Dive In</a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="vidbox">
+          <img src="img2/adv.jpg" alt="" />
+        </div>
+        <div class="contentBx">
+          <div class="content">
+            <p class="cap">Caption One</p>
+            <a class="button" onclick="togglepopup3()">Dive In</a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="vidbox">
+          <img src="img2/grp.jpg" alt="" />
+        </div>
+        <div class="contentBx">
+          <div class="content">
+            <p class="cap">Caption One</p>
+            <a class="button" onclick="togglepopup4()">Dive In</a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="vidbox">
+          <img src="img2/pg.jpg" alt="" />
+        </div>
+        <div class="contentBx">
+          <div class="content">
+            <p class="cap">Caption One</p>
+            <a class="button" onclick="togglepopup5()">Dive In</a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="vidbox">
+          <img src="img2/web-d.jpg" alt="" />
+        </div>
+        <div class="contentBx">
+          <div class="content">
+            <p class="cap">Caption One</p>
+            <a class="button" onclick="togglepopup6()">Dive In</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <p id="rch">Reach Us</p>
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14738.
+        842145350294!2d72.923825!3d22.5525136!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+        1s0x0%3A0xab364c66fd4834c!2sBirla%20Vishvakarma%20Mahavidyalaya%20(BVM)!
+        5e0!3m2!1sen!2sin!4v1659850678822!5m2!1sen!2sin" width="650" height="400"
+      style="border:0; margin-left: 450px; margin-top: 60px;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="contact">
+    <h2 id="cnt" style="font-size: 36px;
+        font-weight: 500;
+        color: #000; margin-bottom: 0px;">Contact Us</h2>
+    <div class="cont-content">
+  </div>
+    <div class="cont-container">
+      <div class="contextInfo">
+        <div class="cont-box">
+          <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="text">
+            <h3 style="font-weight: 500;
+                    color: #00bcd4;">Address</h3>
+            <p style="font-weight: 300;
+                    color: #000;">text-text-text-text-text-text</p>
+          </div>
+        </div>
+        <div class="cont-box">
+          <div class="icon"><i class="fa-solid fa-phone"></i></div>
+          <div class="text">
+            <h3 style="font-weight: 500;
+                    color: #00bcd4;">Phone-No</h3>
+            <p>texttexttext</p>
+          </div>
+        </div>
+        <div class="cont-box">
+          <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+          <div class="text">
+            <h3 style="font-weight: 500;
+                    color: #00bcd4;">Email</h3>
+            <p style="font-weight: 300;
+                    color: #000;">texttexttext</p>
+          </div>
+        </div>
+      </div>
+      <div class="contactForm">
+        <form action="" method="post">
+          <div class="inBox">
+            <input type="text" name="Name" required="required">
+            <span style="position: absolute;
+                    left: 0;
+                    padding: 5px 0;
+                    font-size: 16px;
+                    margin: 10px 0;
+                    pointer-events: none;
+                    transition: 0.5s;
+                    color: #666;">Full Name</span>
+          </div>
+          <div class="inBox">
+            <input type="text" name="Phone_no" required="required">
+            <span style="position: absolute;
+                  left: 0;
+                  padding: 5px 0;
+                  font-size: 16px;
+                  margin: 10px 0;
+                  pointer-events: none;
+                  transition: 0.5s;
+                  color: #666;">Phone-No</span>
+          </div>
+          <div class="inBox">
+            <input type="text" name="Email" required="required">
+            <span style="position: absolute;
+                    left: 0;
+                    padding: 5px 0;
+                    font-size: 16px;
+                    margin: 10px 0;
+                    pointer-events: none;
+                    transition: 0.5s;
+                    color: #666;">Email</span>
+          </div>
+          <div class="inBox">
+            <input type="text" name="Description" required="required">
+            <span style="position: absolute;
+                    left: 0;
+                    padding: 5px 0;
+                    font-size: 16px;
+                    margin: 10px 0;
+                    pointer-events: none;
+                    transition: 0.5s;
+                    color: #666;">Type your request...</span>
+          </div>
+          <div class="inBox">
+            <input type="submit" name="" value="Send">
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer id="flw">
+      <div class="foot-cont">
+        <div class="row">
+          <div class="foot-col">
+            <h4>Follow us</h4>
+            <div class="social-links">
+              <a class="s-lnk" href="#"><i class="fab fa-instagram"></i></a>
+              <a class="s-lnk" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a class="s-lnk" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="s-lnk" href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      let vid = document.querySelector('video');
+      window.addEventListener('scroll', function () {
+        let value = 1 + window.scrollY / -600;
+        vid.style.opacity = value;
+      })
+      const body = document.querySelector("body");
+      const navbar = document.querySelector(".navbar");
+      const menuBtn = document.querySelector(".menu-btn");
+      const cancelBtn = document.querySelector(".cancel-btn");
+      menuBtn.onclick = () => {
+        navbar.classList.add("show");
+        menuBtn.classList.add("hide");
+        body.classList.add("disabled");
+      }
+      cancelBtn.onclick = () => {
+        body.classList.remove("disabled");
+        navbar.classList.remove("show");
+        menuBtn.classList.remove("hide");
+      }
+      window.onscroll = () => {
+        this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+      }
+    </script>
+</body>
+
+</html>

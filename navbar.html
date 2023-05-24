@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4>Digital Touch</h4>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Work</a>
+            </li>
+            <li>
+                <a href="#">Project</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <p>Lorem ipsum dolor sit <br> amet consectetur adipisicing elit. <br> Repellat suscipit alias reprehenderit porro <br> quidem non voluptates quam accusamus sed,  <br> rem cum vel in, perferendis nostrum ea ab quisquam ipsam quos. <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Inventore veniam amet voluptate unde? Nihil, quod molestias <br> provident reiciendis deleniti, esse quae, ex fuga est cumque <br> repellendus? Omnis voluptate dolorum libero. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Magni dolor voluptate dolorum ratione dolorem voluptatem odit eveniet facere consequatur molestias <br> perferendis dicta, ad reprehenderit ipsa modi, itaque quas totam voluptas.</p>
+   
+    <script>
+        const navSlide = () => {
+      const burger = document.querySelector('.burger');
+      const nav = document.querySelector('.nav-links');
+      const navLink = document.querySelectorAll('.nav-link li');
+
+      burger.addEventListener('click', () => {
+        nav.classList.toggle('nav-active');
+        navLink.forEach((link, index) => {
+          if (link.style.animation) 
+          {
+            link.style.animation = "";
+          }
+          else
+          {
+            link.style.animation = `navLinkfade 0.5s ease forwards ${
+                index / 7 + 1.5}s`;
+          }
+        });
+        burger.classList.toggle("toggle");
+      });
+    }
+    navSlide();
+    </script>
+</body>
+</html>
